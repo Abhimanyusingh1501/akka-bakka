@@ -1,0 +1,11 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /opt
+hooks:
+  AfterInstall:
+    - location: /scripts/build.sh
+      timeout: 1000
+      runas:  root
+
