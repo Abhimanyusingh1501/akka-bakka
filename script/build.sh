@@ -1,4 +1,4 @@
 #!/bin/bash
-cd /opt
+cd /myapp
 npm install 
 npm run build
