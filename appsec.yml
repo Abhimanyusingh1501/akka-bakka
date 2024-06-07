@@ -6,6 +6,8 @@ files:
 hooks:
   AfterInstall:
     - location: /script/build.sh
-      timeout: 1000
-      runas:  ubuntu
-
+      timeout: 300
+      runas: ubuntu
+permissions:
+  - object: /script/build.sh
+    pattern: +x
