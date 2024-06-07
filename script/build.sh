@@ -1,4 +1,4 @@
 #!/bin/bash
-cd /myapp
+cd /home/ubuntu
 npm install 
 npm run build
