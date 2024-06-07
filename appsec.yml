@@ -7,5 +7,5 @@ hooks:
   AfterInstall:
     - location: /script/build.sh
       timeout: 1000
-      runas:  root
+      runas:  ubuntu
 
